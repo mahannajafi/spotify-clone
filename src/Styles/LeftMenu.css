@@ -1,0 +1,90 @@
+.leftMenu {
+  width: 240px;
+  height: 100%;
+  min-height: 100vh;
+  background: black;
+  backdrop-filter: blur(10px);
+  padding: 25px 24px;
+  overflow: hidden;
+  transition: all 0.3 ease;
+}
+.logoContainer {
+  color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 19px;
+  width: 130px;
+  cursor: pointer;
+  padding-bottom: 16px;
+}
+.logo {
+  font-size: 30px;
+}
+
+.searchBox {
+  width: 100%;
+  height: 45px;
+  position: relative;
+  margin-top: 20px;
+  color: #848484;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.searchBox input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding-left: 45px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.searchIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #848484;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.leftMenuOption {
+  color: #b3b3b3;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  transition: 1s;
+}
+.leftMenuOption:hover {
+  color: #ffffff;
+}
+.leftMenuOption :nth-child(2) {
+  margin-left: 15px;
+}
+.leftMenuOption > span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.leftMenuOption__bottom1 {
+  margin-top: 45px;
+}
+.liked {
+  background: rgb(25, 0, 92);
+  background: linear-gradient(
+    145deg,
+    rgba(25, 0, 92, 1) 39%,
+    rgba(255, 255, 255, 1) 77%
+  );
+  width: 24px;
+}
+.special{
+  font-weight: 900;
+}
