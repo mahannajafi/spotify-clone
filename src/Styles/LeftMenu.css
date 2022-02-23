@@ -61,7 +61,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 14px;
-  transition: 1s;
+  transition: .5s;
 }
 .leftMenuOption:hover {
   color: #ffffff;
@@ -76,15 +76,47 @@
 .leftMenuOption__bottom1 {
   margin-top: 45px;
 }
-.liked {
-  background: rgb(25, 0, 92);
+
+.special {
+  font-weight: 900;
+}
+.MenuContainer {
+  border-bottom: #282828 solid 0.5px;
+}
+.plus {
+  width: 24px;
+  height: 24px;
+  background-color: #b3b3b3;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: black;
+  font-size: 20px;
+  position: relative;
+  border-radius: 1px;
+  
+}
+.plus > div {
+  position: absolute;
+  top: -3px;
+  right: 4.5px;
+}
+.favorite {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1px;
+  background: rgb(59, 38, 117);
   background: linear-gradient(
     145deg,
-    rgba(25, 0, 92, 1) 39%,
-    rgba(255, 255, 255, 1) 77%
+    rgba(59, 38, 117, 1) 17%,
+    rgba(107, 89, 163, 1) 52%,
+    rgba(125, 113, 157, 1) 64%,
+    rgba(198, 196, 203, 1) 100%
   );
-  width: 24px;
 }
-.special{
-  font-weight: 900;
+.leftMenuOption__bottom > span{
+  font-weight: bold;
 }
